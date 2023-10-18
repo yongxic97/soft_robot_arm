@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+".\obj\main.o"
+".\obj\delay.o"
+".\obj\uart1.o"
+".\obj\uart2.o"
+".\obj\dio.o"
+".\obj\uart3.o"
+".\obj\sys.o"
+".\obj\bsp_spi_ad7606 .o"
+".\obj\bsp_spi_ad7606_2.o"
+".\obj\timer.o"
+".\obj\bsp_mcp23017.o"
+".\obj\bsp_mcp23017_2.o"
+".\obj\key.o"
+".\obj\adc.o"
+".\obj\system_stm32f10x.o"
+".\obj\misc.o"
+".\obj\stm32f10x_gpio.o"
+".\obj\stm32f10x_rcc.o"
+".\obj\stm32f10x_usart.o"
+".\obj\stm32f10x_spi.o"
+".\obj\stm32f10x_tim.o"
+".\obj\startup_stm32f10x_md.o"
+".\obj\stm32f10x_adc.o"
+--library_type=microlib --strict --scatter ".\Obj\Project.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\List\Project.map" -o .\Obj\Project.axf

@@ -1,0 +1,17 @@
+.\obj\rs485.o: ..\Source\Drive\rs485.c
+.\obj\rs485.o: ..\Source\Drive\sys.h
+.\obj\rs485.o: ..\Source\STM32F10xLib\M3\stm32f10x.h
+.\obj\rs485.o: ..\Source\STM32F10xLib\M3\core_cm3.h
+.\obj\rs485.o: F:\MDK5\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\rs485.o: F:\MDK5\MDK5\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h
+.\obj\rs485.o: F:\MDK5\MDK5\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h
+.\obj\rs485.o: F:\MDK5\MDK5\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h
+.\obj\rs485.o: ..\Source\STM32F10xLib\M3\system_stm32f10x.h
+.\obj\rs485.o: ..\Source\STM32F10xLib\M3\stm32f10x_conf.h
+.\obj\rs485.o: F:\MDK5\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\rs485.o: ..\Source\STM32F10xLib\inc\stm32f10x_gpio.h
+.\obj\rs485.o: ..\Source\STM32F10xLib\inc\stm32f10x_usart.h
+.\obj\rs485.o: ..\Source\STM32F10xLib\inc\stm32f10x_rcc.h
+.\obj\rs485.o: ..\Source\STM32F10xLib\inc\misc.h
+.\obj\rs485.o: ..\Source\Drive\rs485.h
+.\obj\rs485.o: ..\Source\Drive\delay.h

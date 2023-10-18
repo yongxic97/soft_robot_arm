@@ -1,0 +1,287 @@
+Dependencies for Project 'Project', Target 'Project': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\Source\APP\Main.c)(0x64A2D05D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\APP -I ..\Source\STM32F10xLib\inc -I ..\Source\STM32F10xLib\M3 -I ..\Source\Drive -I ..\Source\STM32F10xLib\startup -I ..\Source\Drive -I F:\MDK5\MDK5\ARM\CMSIS\4.5.0\CMSIS\Include -I ..\Source\Drive\TIMER -I ..\Source\Drive\LED -I ..\Source\Drive\KEY -I ..\Source\Drive\ADC -I ..\Source-I.\RTE\_Project-IC:\Users\27256\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\27256\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (D:\Programs\Keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\Source\APP\Main.h)(0x543E8488)
+I (..\Source\Drive\UART1.h)(0x603F2DD8)
+I (..\Source\Drive\sys.h)(0x550F951C)
+I (..\Source\STM32F10xLib\M3\stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\core_cm3.h)(0x50FD2628)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Source\core_cmInstr.h)(0x622B7C7A)
+I (..\Source\core_cmFunc.h)(0x622B7C7A)
+I (..\Source\STM32F10xLib\M3\system_stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\stm32f10x_conf.h)(0x54789324)
+I (..\Source\Drive\UART2.h)(0x56AA121A)
+I (..\Source\Drive\UART3.h)(0x603C93C4)
+I (..\Source\Drive\delay.h)(0x56AA0EAC)
+I (..\Source\Drive\JY61.h)(0x6059F3F0)
+I (..\Source\Drive\DIO.h)(0x6152D5E6)
+I (..\Source\STM32F10xLib\inc\stm32f10x_gpio.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\stm32f10x_rcc.h)(0x50FD263E)
+I (..\Source\Drive\TIMER\timer.h)(0x609D1C1C)
+I (..\Source\Drive\KEY\key.h)(0x60FBBAFE)
+I (..\Source\Drive\ADC\adc.h)(0x60FC41FA)
+I (..\Source\STM32F10xLib\inc\stm32f10x_adc.h)(0x50FD263E)
+I (..\Source\Drive\bsp_mcp23017.h)(0x609C9006)
+I (..\Source\Drive\bsp_spi_ad7606.h)(0x609D4780)
+I (..\Source\STM32F10xLib\inc\stm32f10x_spi.h)(0x50FD263E)
+I (D:\Programs\Keil\ARM\ARMCC\include\limits.h)(0x5E8E3CC2)
+F (..\Source\Drive\delay.c)(0x56AA0720)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\APP -I ..\Source\STM32F10xLib\inc -I ..\Source\STM32F10xLib\M3 -I ..\Source\Drive -I ..\Source\STM32F10xLib\startup -I ..\Source\Drive -I F:\MDK5\MDK5\ARM\CMSIS\4.5.0\CMSIS\Include -I ..\Source\Drive\TIMER -I ..\Source\Drive\LED -I ..\Source\Drive\KEY -I ..\Source\Drive\ADC -I ..\Source-I.\RTE\_Project-IC:\Users\27256\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\27256\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\obj\delay.o --omf_browse .\obj\delay.crf --depend .\obj\delay.d)
+I (..\Source\Drive\delay.h)(0x56AA0EAC)
+I (..\Source\STM32F10xLib\M3\stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\core_cm3.h)(0x50FD2628)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Source\core_cmInstr.h)(0x622B7C7A)
+I (..\Source\core_cmFunc.h)(0x622B7C7A)
+I (..\Source\STM32F10xLib\M3\system_stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\stm32f10x_conf.h)(0x54789324)
+I (..\Source\STM32F10xLib\inc\misc.h)(0x50FD263E)
+F (..\Source\Drive\UART1.c)(0x6153156C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\APP -I ..\Source\STM32F10xLib\inc -I ..\Source\STM32F10xLib\M3 -I ..\Source\Drive -I ..\Source\STM32F10xLib\startup -I ..\Source\Drive -I F:\MDK5\MDK5\ARM\CMSIS\4.5.0\CMSIS\Include -I ..\Source\Drive\TIMER -I ..\Source\Drive\LED -I ..\Source\Drive\KEY -I ..\Source\Drive\ADC -I ..\Source-I.\RTE\_Project-IC:\Users\27256\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\27256\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\obj\uart1.o --omf_browse .\obj\uart1.crf --depend .\obj\uart1.d)
+I (..\Source\Drive\sys.h)(0x550F951C)
+I (..\Source\STM32F10xLib\M3\stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\core_cm3.h)(0x50FD2628)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Source\core_cmInstr.h)(0x622B7C7A)
+I (..\Source\core_cmFunc.h)(0x622B7C7A)
+I (..\Source\STM32F10xLib\M3\system_stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\stm32f10x_conf.h)(0x54789324)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\Source\STM32F10xLib\inc\stm32f10x_gpio.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\stm32f10x_usart.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\stm32f10x_rcc.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\misc.h)(0x50FD263E)
+I (..\Source\Drive\UART1.h)(0x603F2DD8)
+F (..\Source\Drive\UART2.c)(0x603DC828)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\APP -I ..\Source\STM32F10xLib\inc -I ..\Source\STM32F10xLib\M3 -I ..\Source\Drive -I ..\Source\STM32F10xLib\startup -I ..\Source\Drive -I F:\MDK5\MDK5\ARM\CMSIS\4.5.0\CMSIS\Include -I ..\Source\Drive\TIMER -I ..\Source\Drive\LED -I ..\Source\Drive\KEY -I ..\Source\Drive\ADC -I ..\Source-I.\RTE\_Project-IC:\Users\27256\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\27256\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\obj\uart2.o --omf_browse .\obj\uart2.crf --depend .\obj\uart2.d)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\Source\STM32F10xLib\M3\stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\core_cm3.h)(0x50FD2628)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Source\core_cmInstr.h)(0x622B7C7A)
+I (..\Source\core_cmFunc.h)(0x622B7C7A)
+I (..\Source\STM32F10xLib\M3\system_stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\stm32f10x_conf.h)(0x54789324)
+I (..\Source\STM32F10xLib\inc\stm32f10x_gpio.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\stm32f10x_usart.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\stm32f10x_rcc.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\misc.h)(0x50FD263E)
+I (..\Source\Drive\UART2.h)(0x56AA121A)
+F (..\Source\Drive\DIO.c)(0x6152D5E6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\APP -I ..\Source\STM32F10xLib\inc -I ..\Source\STM32F10xLib\M3 -I ..\Source\Drive -I ..\Source\STM32F10xLib\startup -I ..\Source\Drive -I F:\MDK5\MDK5\ARM\CMSIS\4.5.0\CMSIS\Include -I ..\Source\Drive\TIMER -I ..\Source\Drive\LED -I ..\Source\Drive\KEY -I ..\Source\Drive\ADC -I ..\Source-I.\RTE\_Project-IC:\Users\27256\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\27256\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\obj\dio.o --omf_browse .\obj\dio.crf --depend .\obj\dio.d)
+I (..\Source\Drive\DIO.h)(0x6152D5E6)
+I (..\Source\STM32F10xLib\M3\stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\core_cm3.h)(0x50FD2628)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Source\core_cmInstr.h)(0x622B7C7A)
+I (..\Source\core_cmFunc.h)(0x622B7C7A)
+I (..\Source\STM32F10xLib\M3\system_stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\stm32f10x_conf.h)(0x54789324)
+I (..\Source\STM32F10xLib\inc\stm32f10x_gpio.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\stm32f10x_rcc.h)(0x50FD263E)
+F (..\Source\Drive\UART3.c)(0x603DCC0A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\APP -I ..\Source\STM32F10xLib\inc -I ..\Source\STM32F10xLib\M3 -I ..\Source\Drive -I ..\Source\STM32F10xLib\startup -I ..\Source\Drive -I F:\MDK5\MDK5\ARM\CMSIS\4.5.0\CMSIS\Include -I ..\Source\Drive\TIMER -I ..\Source\Drive\LED -I ..\Source\Drive\KEY -I ..\Source\Drive\ADC -I ..\Source-I.\RTE\_Project-IC:\Users\27256\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\27256\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\obj\uart3.o --omf_browse .\obj\uart3.crf --depend .\obj\uart3.d)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\Source\STM32F10xLib\M3\stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\core_cm3.h)(0x50FD2628)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Source\core_cmInstr.h)(0x622B7C7A)
+I (..\Source\core_cmFunc.h)(0x622B7C7A)
+I (..\Source\STM32F10xLib\M3\system_stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\stm32f10x_conf.h)(0x54789324)
+I (..\Source\STM32F10xLib\inc\stm32f10x_gpio.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\stm32f10x_usart.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\stm32f10x_rcc.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\misc.h)(0x50FD263E)
+I (..\Source\Drive\UART3.h)(0x603C93C4)
+F (..\Source\Drive\sys.c)(0x5501849A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\APP -I ..\Source\STM32F10xLib\inc -I ..\Source\STM32F10xLib\M3 -I ..\Source\Drive -I ..\Source\STM32F10xLib\startup -I ..\Source\Drive -I F:\MDK5\MDK5\ARM\CMSIS\4.5.0\CMSIS\Include -I ..\Source\Drive\TIMER -I ..\Source\Drive\LED -I ..\Source\Drive\KEY -I ..\Source\Drive\ADC -I ..\Source-I.\RTE\_Project-IC:\Users\27256\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\27256\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\obj\sys.o --omf_browse .\obj\sys.crf --depend .\obj\sys.d)
+I (..\Source\Drive\sys.h)(0x550F951C)
+I (..\Source\STM32F10xLib\M3\stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\core_cm3.h)(0x50FD2628)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Source\core_cmInstr.h)(0x622B7C7A)
+I (..\Source\core_cmFunc.h)(0x622B7C7A)
+I (..\Source\STM32F10xLib\M3\system_stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\stm32f10x_conf.h)(0x54789324)
+F (..\Source\Drive\bsp_spi_ad7606 .c)(0x614852AA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\APP -I ..\Source\STM32F10xLib\inc -I ..\Source\STM32F10xLib\M3 -I ..\Source\Drive -I ..\Source\STM32F10xLib\startup -I ..\Source\Drive -I F:\MDK5\MDK5\ARM\CMSIS\4.5.0\CMSIS\Include -I ..\Source\Drive\TIMER -I ..\Source\Drive\LED -I ..\Source\Drive\KEY -I ..\Source\Drive\ADC -I ..\Source-I.\RTE\_Project-IC:\Users\27256\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\27256\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ".\obj\bsp_spi_ad7606 .o" --omf_browse ".\obj\bsp_spi_ad7606 .crf" --depend ".\obj\bsp_spi_ad7606 .d")
+I (..\Source\STM32F10xLib\M3\stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\core_cm3.h)(0x50FD2628)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Source\core_cmInstr.h)(0x622B7C7A)
+I (..\Source\core_cmFunc.h)(0x622B7C7A)
+I (..\Source\STM32F10xLib\M3\system_stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\stm32f10x_conf.h)(0x54789324)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\Source\Drive\bsp_spi_ad7606.h)(0x609D4780)
+I (..\Source\STM32F10xLib\inc\stm32f10x_spi.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\stm32f10x_gpio.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\stm32f10x_tim.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\stm32f10x_rcc.h)(0x50FD263E)
+I (..\Source\Drive\TIMER\timer.h)(0x609D1C1C)
+I (..\Source\Drive\sys.h)(0x550F951C)
+I (..\Source\STM32F10xLib\inc\misc.h)(0x50FD263E)
+F (..\Source\Drive\bsp_spi_ad7606_2.c)(0x60A4C9F2)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\APP -I ..\Source\STM32F10xLib\inc -I ..\Source\STM32F10xLib\M3 -I ..\Source\Drive -I ..\Source\STM32F10xLib\startup -I ..\Source\Drive -I F:\MDK5\MDK5\ARM\CMSIS\4.5.0\CMSIS\Include -I ..\Source\Drive\TIMER -I ..\Source\Drive\LED -I ..\Source\Drive\KEY -I ..\Source\Drive\ADC -I ..\Source-I.\RTE\_Project-IC:\Users\27256\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\27256\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\obj\bsp_spi_ad7606_2.o --omf_browse .\obj\bsp_spi_ad7606_2.crf --depend .\obj\bsp_spi_ad7606_2.d)
+I (..\Source\STM32F10xLib\M3\stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\core_cm3.h)(0x50FD2628)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Source\core_cmInstr.h)(0x622B7C7A)
+I (..\Source\core_cmFunc.h)(0x622B7C7A)
+I (..\Source\STM32F10xLib\M3\system_stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\stm32f10x_conf.h)(0x54789324)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\Source\Drive\bsp_spi_ad7606_2.h)(0x609D4780)
+I (..\Source\STM32F10xLib\inc\stm32f10x_spi.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\stm32f10x_gpio.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\stm32f10x_tim.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\stm32f10x_rcc.h)(0x50FD263E)
+I (..\Source\Drive\TIMER\timer.h)(0x609D1C1C)
+I (..\Source\Drive\sys.h)(0x550F951C)
+I (..\Source\STM32F10xLib\inc\misc.h)(0x50FD263E)
+F (..\Source\Drive\TIMER\timer.c)(0x6188CA72)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\APP -I ..\Source\STM32F10xLib\inc -I ..\Source\STM32F10xLib\M3 -I ..\Source\Drive -I ..\Source\STM32F10xLib\startup -I ..\Source\Drive -I F:\MDK5\MDK5\ARM\CMSIS\4.5.0\CMSIS\Include -I ..\Source\Drive\TIMER -I ..\Source\Drive\LED -I ..\Source\Drive\KEY -I ..\Source\Drive\ADC -I ..\Source-I.\RTE\_Project-IC:\Users\27256\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\27256\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\obj\timer.o --omf_browse .\obj\timer.crf --depend .\obj\timer.d)
+I (..\Source\Drive\TIMER\timer.h)(0x609D1C1C)
+I (..\Source\Drive\sys.h)(0x550F951C)
+I (..\Source\STM32F10xLib\M3\stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\core_cm3.h)(0x50FD2628)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Source\core_cmInstr.h)(0x622B7C7A)
+I (..\Source\core_cmFunc.h)(0x622B7C7A)
+I (..\Source\STM32F10xLib\M3\system_stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\stm32f10x_conf.h)(0x54789324)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\Source\STM32F10xLib\inc\stm32f10x_tim.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\stm32f10x_rcc.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\stm32f10x_gpio.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\misc.h)(0x50FD263E)
+I (..\Source\Drive\LED\led.h)(0x609B6DEA)
+I (..\Source\Drive\bsp_spi_ad7606.h)(0x609D4780)
+I (..\Source\STM32F10xLib\inc\stm32f10x_spi.h)(0x50FD263E)
+I (..\Source\Drive\bsp_spi_ad7606_2.h)(0x609D4780)
+F (..\Source\Drive\bsp_mcp23017.c)(0x609A9866)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\APP -I ..\Source\STM32F10xLib\inc -I ..\Source\STM32F10xLib\M3 -I ..\Source\Drive -I ..\Source\STM32F10xLib\startup -I ..\Source\Drive -I F:\MDK5\MDK5\ARM\CMSIS\4.5.0\CMSIS\Include -I ..\Source\Drive\TIMER -I ..\Source\Drive\LED -I ..\Source\Drive\KEY -I ..\Source\Drive\ADC -I ..\Source-I.\RTE\_Project-IC:\Users\27256\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\27256\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\obj\bsp_mcp23017.o --omf_browse .\obj\bsp_mcp23017.crf --depend .\obj\bsp_mcp23017.d)
+I (..\Source\Drive\bsp_mcp23017.h)(0x609C9006)
+I (..\Source\STM32F10xLib\M3\stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\core_cm3.h)(0x50FD2628)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Source\core_cmInstr.h)(0x622B7C7A)
+I (..\Source\core_cmFunc.h)(0x622B7C7A)
+I (..\Source\STM32F10xLib\M3\system_stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\stm32f10x_conf.h)(0x54789324)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\Source\STM32F10xLib\inc\stm32f10x_gpio.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\stm32f10x_usart.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\stm32f10x_rcc.h)(0x50FD263E)
+F (..\Source\Drive\bsp_mcp23017_2.c)(0x609B753E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\APP -I ..\Source\STM32F10xLib\inc -I ..\Source\STM32F10xLib\M3 -I ..\Source\Drive -I ..\Source\STM32F10xLib\startup -I ..\Source\Drive -I F:\MDK5\MDK5\ARM\CMSIS\4.5.0\CMSIS\Include -I ..\Source\Drive\TIMER -I ..\Source\Drive\LED -I ..\Source\Drive\KEY -I ..\Source\Drive\ADC -I ..\Source-I.\RTE\_Project-IC:\Users\27256\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\27256\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\obj\bsp_mcp23017_2.o --omf_browse .\obj\bsp_mcp23017_2.crf --depend .\obj\bsp_mcp23017_2.d)
+I (..\Source\Drive\bsp_mcp23017_2.h)(0x61484980)
+I (..\Source\STM32F10xLib\M3\stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\core_cm3.h)(0x50FD2628)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Source\core_cmInstr.h)(0x622B7C7A)
+I (..\Source\core_cmFunc.h)(0x622B7C7A)
+I (..\Source\STM32F10xLib\M3\system_stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\stm32f10x_conf.h)(0x54789324)
+I (..\Source\Drive\bsp_mcp23017.h)(0x609C9006)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\Source\STM32F10xLib\inc\stm32f10x_gpio.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\stm32f10x_usart.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\stm32f10x_rcc.h)(0x50FD263E)
+F (..\Source\Drive\KEY\key.c)(0x61AD75A6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\APP -I ..\Source\STM32F10xLib\inc -I ..\Source\STM32F10xLib\M3 -I ..\Source\Drive -I ..\Source\STM32F10xLib\startup -I ..\Source\Drive -I F:\MDK5\MDK5\ARM\CMSIS\4.5.0\CMSIS\Include -I ..\Source\Drive\TIMER -I ..\Source\Drive\LED -I ..\Source\Drive\KEY -I ..\Source\Drive\ADC -I ..\Source-I.\RTE\_Project-IC:\Users\27256\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\27256\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\obj\key.o --omf_browse .\obj\key.crf --depend .\obj\key.d)
+I (..\Source\STM32F10xLib\M3\stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\core_cm3.h)(0x50FD2628)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Source\core_cmInstr.h)(0x622B7C7A)
+I (..\Source\core_cmFunc.h)(0x622B7C7A)
+I (..\Source\STM32F10xLib\M3\system_stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\stm32f10x_conf.h)(0x54789324)
+I (..\Source\Drive\KEY\key.h)(0x60FBBAFE)
+I (..\Source\Drive\sys.h)(0x550F951C)
+I (..\Source\Drive\delay.h)(0x56AA0EAC)
+I (..\Source\STM32F10xLib\inc\stm32f10x_gpio.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\stm32f10x_rcc.h)(0x50FD263E)
+F (..\Source\Drive\ADC\adc.c)(0x61AD9A66)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\APP -I ..\Source\STM32F10xLib\inc -I ..\Source\STM32F10xLib\M3 -I ..\Source\Drive -I ..\Source\STM32F10xLib\startup -I ..\Source\Drive -I F:\MDK5\MDK5\ARM\CMSIS\4.5.0\CMSIS\Include -I ..\Source\Drive\TIMER -I ..\Source\Drive\LED -I ..\Source\Drive\KEY -I ..\Source\Drive\ADC -I ..\Source-I.\RTE\_Project-IC:\Users\27256\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\27256\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\obj\adc.o --omf_browse .\obj\adc.crf --depend .\obj\adc.d)
+I (..\Source\Drive\ADC\adc.h)(0x60FC41FA)
+I (..\Source\Drive\sys.h)(0x550F951C)
+I (..\Source\STM32F10xLib\M3\stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\core_cm3.h)(0x50FD2628)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Source\core_cmInstr.h)(0x622B7C7A)
+I (..\Source\core_cmFunc.h)(0x622B7C7A)
+I (..\Source\STM32F10xLib\M3\system_stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\stm32f10x_conf.h)(0x54789324)
+I (..\Source\STM32F10xLib\inc\stm32f10x_adc.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\stm32f10x_gpio.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\inc\stm32f10x_rcc.h)(0x50FD263E)
+I (..\Source\Drive\delay.h)(0x56AA0EAC)
+F (..\Source\STM32F10xLib\M3\system_stm32f10x.c)(0x50FD2618)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\APP -I ..\Source\STM32F10xLib\inc -I ..\Source\STM32F10xLib\M3 -I ..\Source\Drive -I ..\Source\STM32F10xLib\startup -I ..\Source\Drive -I F:\MDK5\MDK5\ARM\CMSIS\4.5.0\CMSIS\Include -I ..\Source\Drive\TIMER -I ..\Source\Drive\LED -I ..\Source\Drive\KEY -I ..\Source\Drive\ADC -I ..\Source-I.\RTE\_Project-IC:\Users\27256\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\27256\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\obj\system_stm32f10x.o --omf_browse .\obj\system_stm32f10x.crf --depend .\obj\system_stm32f10x.d)
+I (..\Source\STM32F10xLib\M3\stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\core_cm3.h)(0x50FD2628)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Source\core_cmInstr.h)(0x622B7C7A)
+I (..\Source\core_cmFunc.h)(0x622B7C7A)
+I (..\Source\STM32F10xLib\M3\system_stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\stm32f10x_conf.h)(0x54789324)
+F (..\Source\STM32F10xLib\src\misc.c)(0x50FD263E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\APP -I ..\Source\STM32F10xLib\inc -I ..\Source\STM32F10xLib\M3 -I ..\Source\Drive -I ..\Source\STM32F10xLib\startup -I ..\Source\Drive -I F:\MDK5\MDK5\ARM\CMSIS\4.5.0\CMSIS\Include -I ..\Source\Drive\TIMER -I ..\Source\Drive\LED -I ..\Source\Drive\KEY -I ..\Source\Drive\ADC -I ..\Source-I.\RTE\_Project-IC:\Users\27256\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\27256\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\obj\misc.o --omf_browse .\obj\misc.crf --depend .\obj\misc.d)
+I (..\Source\STM32F10xLib\inc\misc.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\M3\stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\core_cm3.h)(0x50FD2628)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Source\core_cmInstr.h)(0x622B7C7A)
+I (..\Source\core_cmFunc.h)(0x622B7C7A)
+I (..\Source\STM32F10xLib\M3\system_stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\stm32f10x_conf.h)(0x54789324)
+F (..\Source\STM32F10xLib\src\stm32f10x_gpio.c)(0x50FD263E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\APP -I ..\Source\STM32F10xLib\inc -I ..\Source\STM32F10xLib\M3 -I ..\Source\Drive -I ..\Source\STM32F10xLib\startup -I ..\Source\Drive -I F:\MDK5\MDK5\ARM\CMSIS\4.5.0\CMSIS\Include -I ..\Source\Drive\TIMER -I ..\Source\Drive\LED -I ..\Source\Drive\KEY -I ..\Source\Drive\ADC -I ..\Source-I.\RTE\_Project-IC:\Users\27256\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\27256\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\obj\stm32f10x_gpio.o --omf_browse .\obj\stm32f10x_gpio.crf --depend .\obj\stm32f10x_gpio.d)
+I (..\Source\STM32F10xLib\inc\stm32f10x_gpio.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\M3\stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\core_cm3.h)(0x50FD2628)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Source\core_cmInstr.h)(0x622B7C7A)
+I (..\Source\core_cmFunc.h)(0x622B7C7A)
+I (..\Source\STM32F10xLib\M3\system_stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\stm32f10x_conf.h)(0x54789324)
+I (..\Source\STM32F10xLib\inc\stm32f10x_rcc.h)(0x50FD263E)
+F (..\Source\STM32F10xLib\src\stm32f10x_rcc.c)(0x50FD263C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\APP -I ..\Source\STM32F10xLib\inc -I ..\Source\STM32F10xLib\M3 -I ..\Source\Drive -I ..\Source\STM32F10xLib\startup -I ..\Source\Drive -I F:\MDK5\MDK5\ARM\CMSIS\4.5.0\CMSIS\Include -I ..\Source\Drive\TIMER -I ..\Source\Drive\LED -I ..\Source\Drive\KEY -I ..\Source\Drive\ADC -I ..\Source-I.\RTE\_Project-IC:\Users\27256\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\27256\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\obj\stm32f10x_rcc.o --omf_browse .\obj\stm32f10x_rcc.crf --depend .\obj\stm32f10x_rcc.d)
+I (..\Source\STM32F10xLib\inc\stm32f10x_rcc.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\M3\stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\core_cm3.h)(0x50FD2628)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Source\core_cmInstr.h)(0x622B7C7A)
+I (..\Source\core_cmFunc.h)(0x622B7C7A)
+I (..\Source\STM32F10xLib\M3\system_stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\stm32f10x_conf.h)(0x54789324)
+F (..\Source\STM32F10xLib\src\stm32f10x_usart.c)(0x603DE340)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\APP -I ..\Source\STM32F10xLib\inc -I ..\Source\STM32F10xLib\M3 -I ..\Source\Drive -I ..\Source\STM32F10xLib\startup -I ..\Source\Drive -I F:\MDK5\MDK5\ARM\CMSIS\4.5.0\CMSIS\Include -I ..\Source\Drive\TIMER -I ..\Source\Drive\LED -I ..\Source\Drive\KEY -I ..\Source\Drive\ADC -I ..\Source-I.\RTE\_Project-IC:\Users\27256\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\27256\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\obj\stm32f10x_usart.o --omf_browse .\obj\stm32f10x_usart.crf --depend .\obj\stm32f10x_usart.d)
+I (..\Source\STM32F10xLib\inc\stm32f10x_usart.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\M3\stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\core_cm3.h)(0x50FD2628)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Source\core_cmInstr.h)(0x622B7C7A)
+I (..\Source\core_cmFunc.h)(0x622B7C7A)
+I (..\Source\STM32F10xLib\M3\system_stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\stm32f10x_conf.h)(0x54789324)
+I (..\Source\STM32F10xLib\inc\stm32f10x_rcc.h)(0x50FD263E)
+F (..\Source\STM32F10xLib\src\stm32f10x_spi.c)(0x50FD263C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\APP -I ..\Source\STM32F10xLib\inc -I ..\Source\STM32F10xLib\M3 -I ..\Source\Drive -I ..\Source\STM32F10xLib\startup -I ..\Source\Drive -I F:\MDK5\MDK5\ARM\CMSIS\4.5.0\CMSIS\Include -I ..\Source\Drive\TIMER -I ..\Source\Drive\LED -I ..\Source\Drive\KEY -I ..\Source\Drive\ADC -I ..\Source-I.\RTE\_Project-IC:\Users\27256\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\27256\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\obj\stm32f10x_spi.o --omf_browse .\obj\stm32f10x_spi.crf --depend .\obj\stm32f10x_spi.d)
+I (..\Source\STM32F10xLib\inc\stm32f10x_spi.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\M3\stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\core_cm3.h)(0x50FD2628)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Source\core_cmInstr.h)(0x622B7C7A)
+I (..\Source\core_cmFunc.h)(0x622B7C7A)
+I (..\Source\STM32F10xLib\M3\system_stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\stm32f10x_conf.h)(0x54789324)
+I (..\Source\STM32F10xLib\inc\stm32f10x_rcc.h)(0x50FD263E)
+F (..\Source\STM32F10xLib\src\stm32f10x_tim.c)(0x50FD263C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\APP -I ..\Source\STM32F10xLib\inc -I ..\Source\STM32F10xLib\M3 -I ..\Source\Drive -I ..\Source\STM32F10xLib\startup -I ..\Source\Drive -I F:\MDK5\MDK5\ARM\CMSIS\4.5.0\CMSIS\Include -I ..\Source\Drive\TIMER -I ..\Source\Drive\LED -I ..\Source\Drive\KEY -I ..\Source\Drive\ADC -I ..\Source-I.\RTE\_Project-IC:\Users\27256\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\27256\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\obj\stm32f10x_tim.o --omf_browse .\obj\stm32f10x_tim.crf --depend .\obj\stm32f10x_tim.d)
+I (..\Source\STM32F10xLib\inc\stm32f10x_tim.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\M3\stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\core_cm3.h)(0x50FD2628)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Source\core_cmInstr.h)(0x622B7C7A)
+I (..\Source\core_cmFunc.h)(0x622B7C7A)
+I (..\Source\STM32F10xLib\M3\system_stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\stm32f10x_conf.h)(0x54789324)
+I (..\Source\STM32F10xLib\inc\stm32f10x_rcc.h)(0x50FD263E)
+F (..\Source\STM32F10xLib\startup\startup_stm32f10x_md.s)(0x50FD2636)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Project-IC:\Users\27256\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\27256\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 538" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list .\list\startup_stm32f10x_md.lst --xref -o .\obj\startup_stm32f10x_md.o --depend .\obj\startup_stm32f10x_md.d)
+F (..\Source\STM32F10xLib\src\stm32f10x_adc.c)(0x50FD263C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\APP -I ..\Source\STM32F10xLib\inc -I ..\Source\STM32F10xLib\M3 -I ..\Source\Drive -I ..\Source\STM32F10xLib\startup -I ..\Source\Drive -I F:\MDK5\MDK5\ARM\CMSIS\4.5.0\CMSIS\Include -I ..\Source\Drive\TIMER -I ..\Source\Drive\LED -I ..\Source\Drive\KEY -I ..\Source\Drive\ADC -I ..\Source-I.\RTE\_Project-IC:\Users\27256\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\27256\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\obj\stm32f10x_adc.o --omf_browse .\obj\stm32f10x_adc.crf --depend .\obj\stm32f10x_adc.d)
+I (..\Source\STM32F10xLib\inc\stm32f10x_adc.h)(0x50FD263E)
+I (..\Source\STM32F10xLib\M3\stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\core_cm3.h)(0x50FD2628)
+I (D:\Programs\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Source\core_cmInstr.h)(0x622B7C7A)
+I (..\Source\core_cmFunc.h)(0x622B7C7A)
+I (..\Source\STM32F10xLib\M3\system_stm32f10x.h)(0x50FD2638)
+I (..\Source\STM32F10xLib\M3\stm32f10x_conf.h)(0x54789324)
+I (..\Source\STM32F10xLib\inc\stm32f10x_rcc.h)(0x50FD263E)

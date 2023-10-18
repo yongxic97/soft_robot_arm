@@ -1,0 +1,14 @@
+.\obj\adc.o: ..\Source\Drive\ADC\adc.c
+.\obj\adc.o: ..\Source\Drive\ADC\adc.h
+.\obj\adc.o: ..\Source\Drive\sys.h
+.\obj\adc.o: ..\Source\STM32F10xLib\M3\stm32f10x.h
+.\obj\adc.o: ..\Source\STM32F10xLib\M3\core_cm3.h
+.\obj\adc.o: D:\Programs\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\adc.o: ..\Source\core_cmInstr.h
+.\obj\adc.o: ..\Source\core_cmFunc.h
+.\obj\adc.o: ..\Source\STM32F10xLib\M3\system_stm32f10x.h
+.\obj\adc.o: ..\Source\STM32F10xLib\M3\stm32f10x_conf.h
+.\obj\adc.o: ..\Source\STM32F10xLib\inc\stm32f10x_adc.h
+.\obj\adc.o: ..\Source\STM32F10xLib\inc\stm32f10x_gpio.h
+.\obj\adc.o: ..\Source\STM32F10xLib\inc\stm32f10x_rcc.h
+.\obj\adc.o: ..\Source\Drive\delay.h
